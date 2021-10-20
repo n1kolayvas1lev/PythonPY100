@@ -1,8 +1,8 @@
 def incorrect_func(name_arg=[]):
     # name_arg является локальной переменной
-    print("Аргумент до изменения", name_arg)
+    print("Аргумент до изменения incorrect_func", name_arg)
     name_arg.append(1)
-    print("Аргумент после изменения", name_arg)
+    print("Аргумент после изменения name_arg.append", name_arg)
 
 
 def incorrect_main():
