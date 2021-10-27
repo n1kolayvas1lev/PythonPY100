@@ -1,3 +1,3 @@
 if __name__ == "__main__":
-    # Write your solution here
-    pass
+    list_ = [int(i) for i in input()]
+    print(list_[::] == list_[::-1])
