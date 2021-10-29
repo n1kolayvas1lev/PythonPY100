@@ -23,8 +23,9 @@ if __name__ == "__main__":
             dict_chars[char] = 1
     s = sum(dict_chars.values())
     n_char = {}
+    #n_char = {char: count / s for char, count in dict_chars.items()} ч/з list compr
     for char in dict_chars:
         #print(dict_chars[char])
-        dict_chars[char] == dict_chars[char]/s
+        dict_chars[char] = dict_chars[char] / s
 
     print(dict_chars)
